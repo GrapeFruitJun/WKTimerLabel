@@ -1,1 +1,3 @@
 # WKTimerLabel
+
+pod 'WKTimeLabel'
