@@ -1,0 +1,6 @@
+framework module WKTimerLabel {
+  umbrella header "WKTimerLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

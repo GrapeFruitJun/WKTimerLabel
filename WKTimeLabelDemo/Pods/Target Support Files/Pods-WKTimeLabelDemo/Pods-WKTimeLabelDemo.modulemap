@@ -1,0 +1,6 @@
+framework module Pods_WKTimeLabelDemo {
+  umbrella header "Pods-WKTimeLabelDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
