@@ -8,20 +8,19 @@
 import Foundation
 import UIKit
 
-public enum WKTimerLabelType: Int {
+@objc public enum WKTimerLabelType: Int {
     case stopwatch
     case timer
 }
 
-public protocol WKTimerLabelDelegate {
-    
-    func timerLabel(_ timerLabel: WKTimerLabel, finishedCountDownTimerWith countTime: TimeInterval)
-    func timerLabel(_ timerLabel: WKTimerLabel, countingTo: TimeInterval, timerType: WKTimerLabelType)
-    func timerLabel(_ timerLabel: WKTimerLabel, customTextToDisplayAt time: TimeInterval) -> String?
-    func timerLabel(_ timerLabel: WKTimerLabel, customAttributedTextToDisplayAt time: TimeInterval) -> NSAttributedString?
+@objc public protocol WKTimerLabelDelegate {
+    @objc optional func timerLabel(_ timerLabel: WKTimerLabel, finishedCountDownTimerWith countTime: TimeInterval)
+    @objc optional func timerLabel(_ timerLabel: WKTimerLabel, countingTo: TimeInterval, timerType: WKTimerLabelType)
+    @objc optional func timerLabel(_ timerLabel: WKTimerLabel, customTextToDisplayAt time: TimeInterval) -> String?
+    @objc optional func timerLabel(_ timerLabel: WKTimerLabel, customAttributedTextToDisplayAt time: TimeInterval) -> NSAttributedString?
 }
 
-public class WKTimerLabel:UILabel {
+open class WKTimerLabel:UILabel {
     
     private let kHourFormatReplace = "!!!*"
     private let kDefaultFireIntervalNormal = 0.1
@@ -57,7 +56,7 @@ public class WKTimerLabel:UILabel {
     public weak var timeLabel: UILabel?
     public var textRange: Range<String.Index>?
     public var attributesForTextInRange: [NSAttributedString.Key: Any]?
-    public var timerType: WKTimerLabelType = .timer {
+    @objc public var timerType: WKTimerLabelType = .timer {
         didSet {
             self.updateLabel()
         }
@@ -82,18 +81,18 @@ public class WKTimerLabel:UILabel {
         self.updateLabel()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         
         super.init(coder: coder)
     }
     
-    public override func awakeFromNib() {
+    open override func awakeFromNib() {
         
         super.awakeFromNib()
         self.timeLabel = self
     }
     
-    public func start() {
+    open func start() {
         
         timer?.invalidate()
         timer = nil
@@ -122,13 +121,13 @@ public class WKTimerLabel:UILabel {
         timer?.fire()
     }
     
-    public func start(with endingBlock: ((TimeInterval) -> Void)?) {
+    open func start(with endingBlock: ((TimeInterval) -> Void)?) {
         
         self.endedBlock = endingBlock
         self.start()
     }
     
-    public func pause() {
+    open func pause() {
         
         if counting {
             timer?.invalidate()
@@ -138,7 +137,7 @@ public class WKTimerLabel:UILabel {
         }
     }
     
-    public func reset() {
+    open func reset() {
         
         pausedTime = nil
         timeUserValue = (self.timerType == .stopwatch) ? 0 : timeUserValue
@@ -146,7 +145,7 @@ public class WKTimerLabel:UILabel {
         self.updateLabel()
     }
     
-    public func addTimeCounted(by time: TimeInterval) {
+    open func addTimeCounted(by time: TimeInterval) {
         
         if timerType == .timer {
             
@@ -164,7 +163,7 @@ public class WKTimerLabel:UILabel {
         self.updateLabel()
     }
     
-    public func getTimeCounted() -> TimeInterval {
+    open func getTimeCounted() -> TimeInterval {
         
         guard let validStartCountDate = startCountDate else {
             return 0
@@ -177,7 +176,7 @@ public class WKTimerLabel:UILabel {
         return countedTime
     }
     
-    public func getTimeRemaining() -> TimeInterval {
+    open func getTimeRemaining() -> TimeInterval {
         
         if timerType == .timer {
             return (timeUserValue - self.getTimeCounted())
@@ -185,7 +184,7 @@ public class WKTimerLabel:UILabel {
         return 0
     }
     
-    public func getCountDownTime() -> TimeInterval {
+    open func getCountDownTime() -> TimeInterval {
         
         if timerType == .timer {
             return timeUserValue
@@ -193,14 +192,14 @@ public class WKTimerLabel:UILabel {
         return 0
     }
     
-    public override func removeFromSuperview() {
+    open override func removeFromSuperview() {
         
         timer?.invalidate()
         timer = nil
         super.removeFromSuperview()
     }
     
-    public func setStopWatch(time: TimeInterval) {
+    open func setStopWatch(time: TimeInterval) {
         
         self.timeUserValue = (time < 0) ? 0 : time
         if timeUserValue > 0 {
@@ -211,14 +210,14 @@ public class WKTimerLabel:UILabel {
         
     }
     
-    public func setCountDown(time: TimeInterval) {
+    open func setCountDown(time: TimeInterval) {
         
         self.timeUserValue = (time < 0) ? 0 : time
         timeToCountOff = date1970.addingTimeInterval(timeUserValue)
         self.updateLabel()
     }
     
-    public func setCountDownTo(date: Date) {
+    open func setCountDownTo(date: Date) {
         
         let timeLeft = date.timeIntervalSince(Date())
         if timeLeft > 0 {
@@ -241,7 +240,7 @@ public class WKTimerLabel:UILabel {
 extension WKTimerLabel {
     
     @objc
-    public func updateLabel() {
+    open func updateLabel() {
         
         var timeDiff: TimeInterval = 0
         if let startDate = startCountDate {
@@ -263,13 +262,14 @@ extension WKTimerLabel {
                     timeToShow = date1970.addingTimeInterval(0)
                 }
             }
-            delegate?.timerLabel(self, countingTo: timeDiff, timerType: timerType)
+
+            delegate?.timerLabel?(self, countingTo: timeDiff, timerType: timerType)
             
         } else {
             
             if counting {
                 let timeLeft = timeUserValue - timeDiff
-                delegate?.timerLabel(self, countingTo: timeLeft, timerType: timerType)
+                delegate?.timerLabel?(self, countingTo: timeLeft, timerType: timerType)
                 if timeDiff >= timeUserValue {
                     self.pause()
                     timeToShow = date1970.addingTimeInterval(0)
@@ -285,18 +285,18 @@ extension WKTimerLabel {
         }
         
         let atTime = timerType == .stopwatch ? timeDiff : ((timeUserValue - timeDiff) < 0 ? 0 : (timeUserValue - timeDiff))
-        if delegate?.timerLabel(self, customTextToDisplayAt: atTime) != nil {
+        if delegate?.timerLabel?(self, customTextToDisplayAt: atTime) != nil {
             
-            if let customText = delegate?.timerLabel(self, customTextToDisplayAt: atTime), !customText.isEmpty {
+            if let customText = delegate?.timerLabel?(self, customTextToDisplayAt: atTime), !customText.isEmpty {
                 self.timeLabel?.text = customText
             } else {
                 self.timeLabel?.text = self.dateFormatter.string(from: timeToShow)
             }
             
-        } else if delegate?.timerLabel(self, customAttributedTextToDisplayAt: atTime) != nil {
+        } else if delegate?.timerLabel?(self, customAttributedTextToDisplayAt: atTime) != nil {
             
             let atTime = timerType == .stopwatch ? timeDiff : ((timeUserValue - timeDiff) < 0 ? 0 : (timeUserValue - timeDiff))
-            if let customText = delegate?.timerLabel(self, customAttributedTextToDisplayAt: atTime),
+            if let customText = delegate?.timerLabel?(self, customAttributedTextToDisplayAt: atTime),
                !customText.string.isEmpty {
                 self.timeLabel?.attributedText = customText
             } else {
@@ -346,7 +346,7 @@ extension WKTimerLabel {
         
         if timerEnded {
             
-            delegate?.timerLabel(self, finishedCountDownTimerWith: timeUserValue)
+            delegate?.timerLabel?(self, finishedCountDownTimerWith: timeUserValue)
             
             self.endedBlock?(timeUserValue)
             if resetTimerAfterFinish {
@@ -357,3 +357,5 @@ extension WKTimerLabel {
     }
     
 }
+
+
