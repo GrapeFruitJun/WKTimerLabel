@@ -44,26 +44,26 @@ open class WKTimerLabel:UILabel {
     
     private(set) var endedBlock: ((TimeInterval) -> Void)?
     
-    public var delegate: WKTimerLabelDelegate?
+    var delegate: WKTimerLabelDelegate?
     
-    public var timeFormat = "HH:mm:ss" {
+    var timeFormat = "HH:mm:ss" {
         didSet {
             self.dateFormatter.dateFormat = timeFormat
             self.updateLabel()
         }
     }
     
-    public weak var timeLabel: UILabel?
-    public var textRange: Range<String.Index>?
-    public var attributesForTextInRange: [NSAttributedString.Key: Any]?
-    @objc public var timerType: WKTimerLabelType = .timer {
+    weak var timeLabel: UILabel?
+    var textRange: Range<String.Index>?
+    var attributesForTextInRange: [NSAttributedString.Key: Any]?
+    var timerType: WKTimerLabelType = .timer {
         didSet {
             self.updateLabel()
         }
     }
-    public var counting: Bool = false
-    public var resetTimerAfterFinish: Bool = false
-    public var shouldCountBeyondHHLimit: Bool = false {
+    var counting: Bool = false
+    var resetTimerAfterFinish: Bool = false
+    var shouldCountBeyondHHLimit: Bool = false {
         didSet {
             self.updateLabel()
         }
