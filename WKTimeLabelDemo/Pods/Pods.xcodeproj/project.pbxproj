@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37D27DE0A4192EF543D3859421F18D79 /* Pods-WKTimeLabelDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE90927D421F77B4AAD4E49C0B9426 /* Pods-WKTimeLabelDemo-dummy.m */; };
-		39C35ACF122D2D855F7A06AEB6AB8ED1 /* WKTimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4752E6810FD2257818A96A14DA72359E /* WKTimerLabel.swift */; };
-		7025CA5A69E6E77850FA3C0890EC896E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		7E06E97C6BED1C5A3A37F1895DBB2FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		82B913D737C16A91A9D7F7F43D100C68 /* Pods-WKTimeLabelDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE8C196C319A01B771C471B6C258AF7 /* Pods-WKTimeLabelDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CC678550E18DFF11573B8C185744BE4 /* WKTimerLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B46A1F9149DF046FE898B754322F3B /* WKTimerLabel-dummy.m */; };
-		A21F008ECB77F1E0BC11FE7386039C24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		BB547AD683E6F596D5401E13794DA34D /* WKTimerLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3FEF46BD5E79AEFF4C72AFBF4D3551 /* WKTimerLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0266764A3939E3B481417BB6DEC46ABF /* Pods-WKTimeLabelDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE8C196C319A01B771C471B6C258AF7 /* Pods-WKTimeLabelDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05F9FB633B239E485F01D601AECA6E2F /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9A0B38D0C9329826D18EE8BBE0491 /* LTMorphingLabel.swift */; };
+		0E60F7FB92BE03B0DFC74AD3CDB50BE7 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A07CC170B7E4E0067E2AA93C4B58E /* LTMorphingLabel+Sparkle.swift */; };
+		2539789F7BB1F60677239DE9AFC6D658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		39C35ACF122D2D855F7A06AEB6AB8ED1 /* WKTimerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4024A1F80E4A45D570F33E86CF23E /* WKTimerLabel.swift */; };
+		3C98F88F43ED840BEE05B6A15A33AB43 /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042E5BE6B938B476C1401C55CC726DF /* LTCharacterDiffResult.swift */; };
+		4556C09111DFEC86B71688FBA2A80AC1 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E97F6CEF50B2A897B3AD5F2D889EF4 /* Fire.png */; };
+		4A1E4E81A8E5D0ECF7F414D9A4676D4A /* Pods-WKTimeLabelDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE90927D421F77B4AAD4E49C0B9426 /* Pods-WKTimeLabelDemo-dummy.m */; };
+		4FDC4DB2BFCDCECF3CD1DD4AD1151E6E /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421673E4DA1AC0A5A79F6489AE576B2 /* LTMorphingEffect.swift */; };
+		53B40877005BE473A1BEE043C1883E61 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = F0C7C8234940860464F4C23C15A5DDEC /* Smoke.png */; };
+		5619946FB317E23FACEE53974C0744C5 /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 916C003AA2D51BA81704A48AAD162181 /* LTMorphingLabel-dummy.m */; };
+		58A9C29D9EF60F74224FD6C5856BCFB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		5D062590800F6888D6A8219525CC7517 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790987A41F330458CCAA27E311ABBDD2 /* LTStringDiffResult.swift */; };
+		6354BF050131D8A69D79AC97CE299E69 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7DF6166488165277AFB7FD99FAF0EC /* LTCharacterLimbo.swift */; };
+		704494997F5F13A72A8DF65351F93452 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D486B2BEEFF989D53675E9185C53433E /* LTMorphingLabel+Anvil.swift */; };
+		7D9C47B129EA77ACF69FC5A67217367D /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A484EAA951916FE94015CB8A1C88A0 /* LTEasing.swift */; };
+		7E06E97C6BED1C5A3A37F1895DBB2FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		8857FD0B4987A603556ECD63B469812D /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261FEF1F25189C2B1E4542D319FFF05 /* LTMorphingLabel+Pixelate.swift */; };
+		8CC678550E18DFF11573B8C185744BE4 /* WKTimerLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9061E14261628DDB2BF23356086F1FC1 /* WKTimerLabel-dummy.m */; };
+		8EADDA29ECB74C60A2FE192AB900DE58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		907CA5C33ECFE28AA3AF50995F5FA91D /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5428888E71C9BCD10F09C7C4EF24B91C /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9507728B497C72281A6478C92E314F66 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64E496C4F01E83361FBD0562B0E926 /* LTMorphingLabel+Evaporate.swift */; };
+		A21F008ECB77F1E0BC11FE7386039C24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		A5697D2D7D037B24B1439054E97FC009 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB918B590A86CACD48374FEAB1D8657D /* LTEmitterView.swift */; };
+		A6C896CBD6AB4DA5E10369EAE910A1B8 /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E126AFADB5F594E089B6A359681C9A00 /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B441F46E4E3566BC30F8CE4EB841C792 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 3548BC5D76222AAB5FF0B151BEEECA74 /* Fragment.png */; };
+		B7BFA98E7A19D6691342C8165FE2F2AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		BB547AD683E6F596D5401E13794DA34D /* WKTimerLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF6B90EF1782DA4EDC75FDC05F1184F /* WKTimerLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6F3A12F6EE17E03560742B6BC2731C /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2417F40F87D444F2426794A16E4C32CF /* Sparkle.png */; };
+		BF755AF4E8CF6B5928AE3657891659C4 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C172D186BAE01657EDF5F5C13CE83EC6 /* LTMorphingLabel+Fall.swift */; };
+		CC3FE2BFC189D42744199C76783F7087 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE391C3583120B1604ACEEC2CFD4E199 /* LTMorphingLabel+Burn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5BCEDA78BEB7525C7474D734A2E9F313 /* PBXContainerItemProxy */ = {
+		71C1E9F96E5470484719DA1458DCC766 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE4FFAB699948AA1879F57FBBEABFA14;
 			remoteInfo = WKTimerLabel;
+		};
+		81DF0D2CA07A1CD46262232E3506DF14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE08E97E291135F1A7FAF0D9D680D2BF;
+			remoteInfo = LTMorphingLabel;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,33 +61,60 @@
 		00BA8747460DC140AB39183685AB3A29 /* Pods-WKTimeLabelDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKTimeLabelDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0DE0B72A0683D51B572AEA9A56323ABA /* WKTimerLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKTimerLabel; path = WKTimerLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CE7796DA9C49BC31380A09166A1922 /* Pods-WKTimeLabelDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKTimeLabelDemo.modulemap"; sourceTree = "<group>"; };
+		1EF89C2ADA96DB267929D5A7D3214302 /* LTMorphingLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LTMorphingLabel; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2417F40F87D444F2426794A16E4C32CF /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
+		2421673E4DA1AC0A5A79F6489AE576B2 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		269A07CC170B7E4E0067E2AA93C4B58E /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
 		2C55E2FE40FE420DD64F3CD4F5C75218 /* Pods-WKTimeLabelDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTimeLabelDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		376A4098DF66A443702340C94DA4A517 /* WKTimerLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTimerLabel.release.xcconfig; sourceTree = "<group>"; };
-		4752E6810FD2257818A96A14DA72359E /* WKTimerLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKTimerLabel.swift; path = WKTimerLabel/WKTimerLabel.swift; sourceTree = "<group>"; };
+		302D854BB3135C1843D5C9264AA39DAE /* LTMorphingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.release.xcconfig; sourceTree = "<group>"; };
+		341656CD2815ACA6DAB2DEFF2672F0E3 /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		3548BC5D76222AAB5FF0B151BEEECA74 /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		3F64E496C4F01E83361FBD0562B0E926 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		44D8FF3FB26F5D8583364B9082E1DE89 /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTMorphingLabel.modulemap; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BE9A0B38D0C9329826D18EE8BBE0491 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		4F1806DF247D814973F7735154F511D4 /* WKTimerLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKTimerLabel.modulemap; sourceTree = "<group>"; };
 		4FF150591D01B31AF9DB0BF9AB70E089 /* Pods-WKTimeLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTimeLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		52E89E3AD3EC44CC0B1F5DFFD993DCCE /* Pods-WKTimeLabelDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTimeLabelDemo-Info.plist"; sourceTree = "<group>"; };
-		5F1E01132A16AB9B52BD659704BCFBBA /* WKTimerLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTimerLabel.debug.xcconfig; sourceTree = "<group>"; };
-		7C3FEF46BD5E79AEFF4C72AFBF4D3551 /* WKTimerLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTimerLabel-umbrella.h"; sourceTree = "<group>"; };
+		5428888E71C9BCD10F09C7C4EF24B91C /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		5A7DF6166488165277AFB7FD99FAF0EC /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		65F3CB4EB9770AF0B06FC88CDA782DA6 /* WKTimerLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTimerLabel.release.xcconfig; sourceTree = "<group>"; };
+		6DB4024A1F80E4A45D570F33E86CF23E /* WKTimerLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKTimerLabel.swift; path = WKTimerLabel/WKTimerLabel.swift; sourceTree = "<group>"; };
+		7042E5BE6B938B476C1401C55CC726DF /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterDiffResult.swift; path = LTMorphingLabel/LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		70DF0BCFA5DE0DDC18BA55282EFE55DC /* LTMorphingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LTMorphingLabel-Info.plist"; sourceTree = "<group>"; };
+		73DD03E26B0C96409DC8321C82F1BA77 /* WKTimerLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKTimerLabel-Info.plist"; sourceTree = "<group>"; };
+		790987A41F330458CCAA27E311ABBDD2 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTStringDiffResult.swift; path = LTMorphingLabel/LTStringDiffResult.swift; sourceTree = "<group>"; };
+		83A484EAA951916FE94015CB8A1C88A0 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8DE8C196C319A01B771C471B6C258AF7 /* Pods-WKTimeLabelDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKTimeLabelDemo-umbrella.h"; sourceTree = "<group>"; };
-		94094356C86472C606A2562790315DCC /* WKTimerLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKTimerLabel-Info.plist"; sourceTree = "<group>"; };
+		9061E14261628DDB2BF23356086F1FC1 /* WKTimerLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKTimerLabel-dummy.m"; sourceTree = "<group>"; };
+		916C003AA2D51BA81704A48AAD162181 /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
 		95278E77F4CABC6802EF5A08765095FB /* Pods-WKTimeLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTimeLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
 		987A7CBBE8DC8AB7500F1E1285F0B3B0 /* Pods-WKTimeLabelDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKTimeLabelDemo-frameworks.sh"; sourceTree = "<group>"; };
 		9BBE90927D421F77B4AAD4E49C0B9426 /* Pods-WKTimeLabelDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKTimeLabelDemo-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4B46A1F9149DF046FE898B754322F3B /* WKTimerLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKTimerLabel-dummy.m"; sourceTree = "<group>"; };
-		B0221A1F610E7372CC582FA5CA1EE8CB /* WKTimerLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKTimerLabel.modulemap; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F144D819D2800188924EB933966D192D /* WKTimerLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTimerLabel-prefix.pch"; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A2D0DB607EDE8F550634EC2F0ECC6B8B /* WKTimerLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTimerLabel.debug.xcconfig; sourceTree = "<group>"; };
+		C172D186BAE01657EDF5F5C13CE83EC6 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		CB918B590A86CACD48374FEAB1D8657D /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		D1E97F6CEF50B2A897B3AD5F2D889EF4 /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		D44ECEC014DEE9E1448FB7A0AAE846CC /* WKTimerLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTimerLabel-prefix.pch"; sourceTree = "<group>"; };
+		D486B2BEEFF989D53675E9185C53433E /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		DAF6B90EF1782DA4EDC75FDC05F1184F /* WKTimerLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTimerLabel-umbrella.h"; sourceTree = "<group>"; };
+		E126AFADB5F594E089B6A359681C9A00 /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		E261FEF1F25189C2B1E4542D319FFF05 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		E8C20CAC3ED2BFE569DB66CEB314EB11 /* LTMorphingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.debug.xcconfig; sourceTree = "<group>"; };
+		F0C7C8234940860464F4C23C15A5DDEC /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+		FE391C3583120B1604ACEEC2CFD4E199 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
 		FFE73C0968FBEECE9910D2777CCD0B00 /* Pods-WKTimeLabelDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WKTimeLabelDemo"; path = Pods_WKTimeLabelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75ADA45AD4E4C45F30A147C40606EDFF /* Frameworks */ = {
+		A4CC37C816D989BE5C86EED01B596134 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7025CA5A69E6E77850FA3C0890EC896E /* Foundation.framework in Frameworks */,
+				58A9C29D9EF60F74224FD6C5856BCFB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,37 +127,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E618A29D109D3AFE39DC034F15A382D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2539789F7BB1F60677239DE9AFC6D658 /* Foundation.framework in Frameworks */,
+				8EADDA29ECB74C60A2FE192AB900DE58 /* QuartzCore.framework in Frameworks */,
+				B7BFA98E7A19D6691342C8165FE2F2AF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+		2DC0A69CBCF9640A18B93BEE4B04FD14 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		805110A648E307E17360DCFD52C25B13 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E1E305EAD558928EE4324C4B9584834B /* WKTimerLabel */,
+				589A85F84D29802D8F9B78B178BB952B /* LTMorphingLabel */,
+				D4A4266A43F1CE0203AABBADDA1C4050 /* WKTimerLabel */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9E7E3CA67D4B312BBE301D000D89552A /* Products */ = {
+		4B3E4D1D7608119F738304ABF9D6006A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				44D8FF3FB26F5D8583364B9082E1DE89 /* LTMorphingLabel.modulemap */,
+				916C003AA2D51BA81704A48AAD162181 /* LTMorphingLabel-dummy.m */,
+				70DF0BCFA5DE0DDC18BA55282EFE55DC /* LTMorphingLabel-Info.plist */,
+				341656CD2815ACA6DAB2DEFF2672F0E3 /* LTMorphingLabel-prefix.pch */,
+				E126AFADB5F594E089B6A359681C9A00 /* LTMorphingLabel-umbrella.h */,
+				E8C20CAC3ED2BFE569DB66CEB314EB11 /* LTMorphingLabel.debug.xcconfig */,
+				302D854BB3135C1843D5C9264AA39DAE /* LTMorphingLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+		589A85F84D29802D8F9B78B178BB952B /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7042E5BE6B938B476C1401C55CC726DF /* LTCharacterDiffResult.swift */,
+				5A7DF6166488165277AFB7FD99FAF0EC /* LTCharacterLimbo.swift */,
+				83A484EAA951916FE94015CB8A1C88A0 /* LTEasing.swift */,
+				CB918B590A86CACD48374FEAB1D8657D /* LTEmitterView.swift */,
+				2421673E4DA1AC0A5A79F6489AE576B2 /* LTMorphingEffect.swift */,
+				5428888E71C9BCD10F09C7C4EF24B91C /* LTMorphingLabel.h */,
+				4BE9A0B38D0C9329826D18EE8BBE0491 /* LTMorphingLabel.swift */,
+				D486B2BEEFF989D53675E9185C53433E /* LTMorphingLabel+Anvil.swift */,
+				FE391C3583120B1604ACEEC2CFD4E199 /* LTMorphingLabel+Burn.swift */,
+				3F64E496C4F01E83361FBD0562B0E926 /* LTMorphingLabel+Evaporate.swift */,
+				C172D186BAE01657EDF5F5C13CE83EC6 /* LTMorphingLabel+Fall.swift */,
+				E261FEF1F25189C2B1E4542D319FFF05 /* LTMorphingLabel+Pixelate.swift */,
+				269A07CC170B7E4E0067E2AA93C4B58E /* LTMorphingLabel+Sparkle.swift */,
+				790987A41F330458CCAA27E311ABBDD2 /* LTStringDiffResult.swift */,
+				D075164DBC1C336C121A86523F4CE0B4 /* Resources */,
+				4B3E4D1D7608119F738304ABF9D6006A /* Support Files */,
+			);
+			name = LTMorphingLabel;
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		80CA5713E547F73E220FABE1B8B1068E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1806DF247D814973F7735154F511D4 /* WKTimerLabel.modulemap */,
+				9061E14261628DDB2BF23356086F1FC1 /* WKTimerLabel-dummy.m */,
+				73DD03E26B0C96409DC8321C82F1BA77 /* WKTimerLabel-Info.plist */,
+				D44ECEC014DEE9E1448FB7A0AAE846CC /* WKTimerLabel-prefix.pch */,
+				DAF6B90EF1782DA4EDC75FDC05F1184F /* WKTimerLabel-umbrella.h */,
+				A2D0DB607EDE8F550634EC2F0ECC6B8B /* WKTimerLabel.debug.xcconfig */,
+				65F3CB4EB9770AF0B06FC88CDA782DA6 /* WKTimerLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WKTimerLabel";
+			sourceTree = "<group>";
+		};
+		B4BA01C906D9A6997A5711A10EFEA0D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF89C2ADA96DB267929D5A7D3214302 /* LTMorphingLabel */,
 				FFE73C0968FBEECE9910D2777CCD0B00 /* Pods-WKTimeLabelDemo */,
 				0DE0B72A0683D51B572AEA9A56323ABA /* WKTimerLabel */,
 			);
@@ -136,36 +250,42 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				805110A648E307E17360DCFD52C25B13 /* Pods */,
-				9E7E3CA67D4B312BBE301D000D89552A /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				2DC0A69CBCF9640A18B93BEE4B04FD14 /* Pods */,
+				B4BA01C906D9A6997A5711A10EFEA0D4 /* Products */,
 				CBBA6170A1EDFC74C7550E6EBC38A4E4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E1E305EAD558928EE4324C4B9584834B /* WKTimerLabel */ = {
+		D075164DBC1C336C121A86523F4CE0B4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4752E6810FD2257818A96A14DA72359E /* WKTimerLabel.swift */,
-				FF896FB44004E805E3A6D8E89B5D8F28 /* Support Files */,
+				D1E97F6CEF50B2A897B3AD5F2D889EF4 /* Fire.png */,
+				3548BC5D76222AAB5FF0B151BEEECA74 /* Fragment.png */,
+				F0C7C8234940860464F4C23C15A5DDEC /* Smoke.png */,
+				2417F40F87D444F2426794A16E4C32CF /* Sparkle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D4A4266A43F1CE0203AABBADDA1C4050 /* WKTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6DB4024A1F80E4A45D570F33E86CF23E /* WKTimerLabel.swift */,
+				80CA5713E547F73E220FABE1B8B1068E /* Support Files */,
 			);
 			name = WKTimerLabel;
 			path = WKTimerLabel;
 			sourceTree = "<group>";
 		};
-		FF896FB44004E805E3A6D8E89B5D8F28 /* Support Files */ = {
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B0221A1F610E7372CC582FA5CA1EE8CB /* WKTimerLabel.modulemap */,
-				A4B46A1F9149DF046FE898B754322F3B /* WKTimerLabel-dummy.m */,
-				94094356C86472C606A2562790315DCC /* WKTimerLabel-Info.plist */,
-				F144D819D2800188924EB933966D192D /* WKTimerLabel-prefix.pch */,
-				7C3FEF46BD5E79AEFF4C72AFBF4D3551 /* WKTimerLabel-umbrella.h */,
-				5F1E01132A16AB9B52BD659704BCFBBA /* WKTimerLabel.debug.xcconfig */,
-				376A4098DF66A443702340C94DA4A517 /* WKTimerLabel.release.xcconfig */,
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/WKTimerLabel";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,17 +299,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF54149EF5B515673A7C3794F653CCB1 /* Headers */ = {
+		9560AF1876CC7DBFD6ABE75F1E109514 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82B913D737C16A91A9D7F7F43D100C68 /* Pods-WKTimeLabelDemo-umbrella.h in Headers */,
+				0266764A3939E3B481417BB6DEC46ABF /* Pods-WKTimeLabelDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22920296ABA256F5B57CA81F31C8F45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907CA5C33ECFE28AA3AF50995F5FA91D /* LTMorphingLabel.h in Headers */,
+				A6C896CBD6AB4DA5E10369EAE910A1B8 /* LTMorphingLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BE08E97E291135F1A7FAF0D9D680D2BF /* LTMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FA7CAA161BE1920A34155976F58064 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */;
+			buildPhases = (
+				A22920296ABA256F5B57CA81F31C8F45 /* Headers */,
+				E74B9C49ED7FFD4BFCFE62C33D32B783 /* Sources */,
+				E618A29D109D3AFE39DC034F15A382D3 /* Frameworks */,
+				62F05CB5B7540F3003BD9DB3643FCBD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMorphingLabel;
+			productName = LTMorphingLabel;
+			productReference = 1EF89C2ADA96DB267929D5A7D3214302 /* LTMorphingLabel */;
+			productType = "com.apple.product-type.framework";
+		};
 		CE4FFAB699948AA1879F57FBBEABFA14 /* WKTimerLabel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BECAC3A2015145D2726C59ABB111FA7C /* Build configuration list for PBXNativeTarget "WKTimerLabel" */;
@@ -210,17 +357,18 @@
 		};
 		FCF6DD484F1E3DB2A9BCCC9FDB89ED20 /* Pods-WKTimeLabelDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 310B6661FCCE88C678EDBBB015970000 /* Build configuration list for PBXNativeTarget "Pods-WKTimeLabelDemo" */;
+			buildConfigurationList = 79CA00F4F5D10BF6CE4C73096E199969 /* Build configuration list for PBXNativeTarget "Pods-WKTimeLabelDemo" */;
 			buildPhases = (
-				AF54149EF5B515673A7C3794F653CCB1 /* Headers */,
-				3ACF6BBE1473C245E9863C0E003E0DEB /* Sources */,
-				75ADA45AD4E4C45F30A147C40606EDFF /* Frameworks */,
-				07B701630D9BD3E50122841F9B62D98D /* Resources */,
+				9560AF1876CC7DBFD6ABE75F1E109514 /* Headers */,
+				328AAAD5E65696A37B74726671D28E6C /* Sources */,
+				A4CC37C816D989BE5C86EED01B596134 /* Frameworks */,
+				BB3E6FC582931B214FF60375234981AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6C9A9D9D3FF694BA357AB0A9719AE522 /* PBXTargetDependency */,
+				5F66F41A4D427647A78129B50501CCB9 /* PBXTargetDependency */,
+				23F102D4C3158932055C5CDF3E57F9FA /* PBXTargetDependency */,
 			);
 			name = "Pods-WKTimeLabelDemo";
 			productName = Pods_WKTimeLabelDemo;
@@ -245,10 +393,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9E7E3CA67D4B312BBE301D000D89552A /* Products */;
+			productRefGroup = B4BA01C906D9A6997A5711A10EFEA0D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				BE08E97E291135F1A7FAF0D9D680D2BF /* LTMorphingLabel */,
 				FCF6DD484F1E3DB2A9BCCC9FDB89ED20 /* Pods-WKTimeLabelDemo */,
 				CE4FFAB699948AA1879F57FBBEABFA14 /* WKTimerLabel */,
 			);
@@ -256,10 +405,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		07B701630D9BD3E50122841F9B62D98D /* Resources */ = {
+		62F05CB5B7540F3003BD9DB3643FCBD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4556C09111DFEC86B71688FBA2A80AC1 /* Fire.png in Resources */,
+				B441F46E4E3566BC30F8CE4EB841C792 /* Fragment.png in Resources */,
+				53B40877005BE473A1BEE043C1883E61 /* Smoke.png in Resources */,
+				BC6F3A12F6EE17E03560742B6BC2731C /* Sparkle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,14 +423,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB3E6FC582931B214FF60375234981AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3ACF6BBE1473C245E9863C0E003E0DEB /* Sources */ = {
+		328AAAD5E65696A37B74726671D28E6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37D27DE0A4192EF543D3859421F18D79 /* Pods-WKTimeLabelDemo-dummy.m in Sources */,
+				4A1E4E81A8E5D0ECF7F414D9A4676D4A /* Pods-WKTimeLabelDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,55 +450,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E74B9C49ED7FFD4BFCFE62C33D32B783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C98F88F43ED840BEE05B6A15A33AB43 /* LTCharacterDiffResult.swift in Sources */,
+				6354BF050131D8A69D79AC97CE299E69 /* LTCharacterLimbo.swift in Sources */,
+				7D9C47B129EA77ACF69FC5A67217367D /* LTEasing.swift in Sources */,
+				A5697D2D7D037B24B1439054E97FC009 /* LTEmitterView.swift in Sources */,
+				4FDC4DB2BFCDCECF3CD1DD4AD1151E6E /* LTMorphingEffect.swift in Sources */,
+				05F9FB633B239E485F01D601AECA6E2F /* LTMorphingLabel.swift in Sources */,
+				704494997F5F13A72A8DF65351F93452 /* LTMorphingLabel+Anvil.swift in Sources */,
+				CC3FE2BFC189D42744199C76783F7087 /* LTMorphingLabel+Burn.swift in Sources */,
+				9507728B497C72281A6478C92E314F66 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				BF755AF4E8CF6B5928AE3657891659C4 /* LTMorphingLabel+Fall.swift in Sources */,
+				8857FD0B4987A603556ECD63B469812D /* LTMorphingLabel+Pixelate.swift in Sources */,
+				0E60F7FB92BE03B0DFC74AD3CDB50BE7 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				5619946FB317E23FACEE53974C0744C5 /* LTMorphingLabel-dummy.m in Sources */,
+				5D062590800F6888D6A8219525CC7517 /* LTStringDiffResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C9A9D9D3FF694BA357AB0A9719AE522 /* PBXTargetDependency */ = {
+		23F102D4C3158932055C5CDF3E57F9FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WKTimerLabel;
 			target = CE4FFAB699948AA1879F57FBBEABFA14 /* WKTimerLabel */;
-			targetProxy = 5BCEDA78BEB7525C7474D734A2E9F313 /* PBXContainerItemProxy */;
+			targetProxy = 71C1E9F96E5470484719DA1458DCC766 /* PBXContainerItemProxy */;
+		};
+		5F66F41A4D427647A78129B50501CCB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTMorphingLabel;
+			target = BE08E97E291135F1A7FAF0D9D680D2BF /* LTMorphingLabel */;
+			targetProxy = 81DF0D2CA07A1CD46262232E3506DF14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		39DCB03D349E906038087A40BC7E5C44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 376A4098DF66A443702340C94DA4A517 /* WKTimerLabel.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WKTimerLabel/WKTimerLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WKTimerLabel/WKTimerLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/WKTimerLabel/WKTimerLabel.modulemap";
-				PRODUCT_MODULE_NAME = WKTimerLabel;
-				PRODUCT_NAME = WKTimerLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4048B5CB7BC4285E81308A4DA1C396F9 /* Debug */ = {
+		038AD6193686AA909AE6E2A150C66976 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FF150591D01B31AF9DB0BF9AB70E089 /* Pods-WKTimeLabelDemo.debug.xcconfig */;
 			buildSettings = {
@@ -375,9 +526,45 @@
 			};
 			name = Debug;
 		};
+		39DCB03D349E906038087A40BC7E5C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F3CB4EB9770AF0B06FC88CDA782DA6 /* WKTimerLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKTimerLabel/WKTimerLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKTimerLabel/WKTimerLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WKTimerLabel/WKTimerLabel.modulemap";
+				PRODUCT_MODULE_NAME = WKTimerLabel;
+				PRODUCT_NAME = WKTimerLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		454AD3B9E430F20CD7AE1491F7442AD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F1E01132A16AB9B52BD659704BCFBBA /* WKTimerLabel.debug.xcconfig */;
+			baseConfigurationReference = A2D0DB607EDE8F550634EC2F0ECC6B8B /* WKTimerLabel.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -409,6 +596,75 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4998388A4166354FC0BF42D6792F711A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C20CAC3ED2BFE569DB66CEB314EB11 /* LTMorphingLabel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				PRODUCT_MODULE_NAME = LTMorphingLabel;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B19DDC9687CF59A5C2B2FC5A7DE44FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302D854BB3135C1843D5C9264AA39DAE /* LTMorphingLabel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				PRODUCT_MODULE_NAME = LTMorphingLabel;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -538,7 +794,7 @@
 			};
 			name = Release;
 		};
-		E14FF7CB1B2B17CBCC9066176F58C164 /* Release */ = {
+		CD532598579F1B5934AB072EDB4B6588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95278E77F4CABC6802EF5A08765095FB /* Pods-WKTimeLabelDemo.release.xcconfig */;
 			buildSettings = {
@@ -579,20 +835,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		310B6661FCCE88C678EDBBB015970000 /* Build configuration list for PBXNativeTarget "Pods-WKTimeLabelDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4048B5CB7BC4285E81308A4DA1C396F9 /* Debug */,
-				E14FF7CB1B2B17CBCC9066176F58C164 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
 				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CA00F4F5D10BF6CE4C73096E199969 /* Build configuration list for PBXNativeTarget "Pods-WKTimeLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038AD6193686AA909AE6E2A150C66976 /* Debug */,
+				CD532598579F1B5934AB072EDB4B6588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FA7CAA161BE1920A34155976F58064 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4998388A4166354FC0BF42D6792F711A /* Debug */,
+				4B19DDC9687CF59A5C2B2FC5A7DE44FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

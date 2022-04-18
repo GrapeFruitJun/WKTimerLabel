@@ -10,8 +10,6 @@ import WKTimerLabel
 
 class ViewController: UIViewController, WKTimerLabelDelegate {
     
-    
-
     @IBOutlet weak var timerLabel1: WKTimerLabel!
     
     override func viewDidLoad() {
@@ -24,8 +22,17 @@ class ViewController: UIViewController, WKTimerLabelDelegate {
     
     @IBAction func start1Action(_ sender: Any) {
         
-        timerLabel1.start()
+//        if timerLabel1. {
+//            
+//        } else {
+//            timerLabel1.start()
+//        }
+           
+    }
+    
+    @IBAction func resetAction(_ sender: Any) {
         
+        timerLabel1.reset()
     }
     
     func timerLabel(_ timerLabel: WKTimerLabel, finishedCountDownTimerWith countTime: TimeInterval) {

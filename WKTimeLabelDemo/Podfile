@@ -7,5 +7,6 @@ target 'WKTimeLabelDemo' do
 
   # Pods for WKTimeLabelDemo
   pod 'WKTimerLabel', '1.0.3'
+  pod 'LTMorphingLabel'
 
 end

@@ -47,28 +47,24 @@ public class WKTimerLabel:UILabel {
     
     public var delegate: WKTimerLabelDelegate?
     
+    
+    public weak var timeLabel: UILabel?
+    public var textRange: Range<String.Index>?
+    public var attributesForTextInRange: [NSAttributedString.Key: Any]?
+    private(set) var counting: Bool = false
+    public var resetTimerAfterFinish: Bool = false
+    
     public var timeFormat = "HH:mm:ss" {
         didSet {
             self.dateFormatter.dateFormat = timeFormat
             self.updateLabel()
         }
     }
-    
-    public weak var timeLabel: UILabel?
-    
-    public var textRange: Range<String.Index>?
-    
-    public var attributesForTextInRange: [NSAttributedString.Key: Any]?
-    
     public var timerType: WKTimerLabelType = .timer {
         didSet {
             self.updateLabel()
         }
     }
-    
-    private(set) var counting: Bool = false
-    public var resetTimerAfterFinish: Bool = false
-    
     public var shouldCountBeyondHHLimit: Bool = false {
         didSet {
             self.updateLabel()

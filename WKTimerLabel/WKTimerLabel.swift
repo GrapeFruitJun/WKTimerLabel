@@ -55,20 +55,15 @@ public class WKTimerLabel:UILabel {
     }
     
     public weak var timeLabel: UILabel?
-    
     public var textRange: Range<String.Index>?
-    
     public var attributesForTextInRange: [NSAttributedString.Key: Any]?
-    
     public var timerType: WKTimerLabelType = .timer {
         didSet {
             self.updateLabel()
         }
     }
-    
-    private(set) var counting: Bool = false
+    public (set) var counting: Bool = false
     public var resetTimerAfterFinish: Bool = false
-    
     public var shouldCountBeyondHHLimit: Bool = false {
         didSet {
             self.updateLabel()
@@ -99,7 +94,6 @@ public class WKTimerLabel:UILabel {
     }
     
     public func start() {
-        
         
         timer?.invalidate()
         timer = nil
@@ -155,15 +149,17 @@ public class WKTimerLabel:UILabel {
     public func addTimeCounted(by time: TimeInterval) {
         
         if timerType == .timer {
+            
             self.setCountDown(time: time + timeUserValue)
-        } else if timerType == .stopwatch,
-                  let newStartDate = startCountDate?.addingTimeInterval(-1 * time) {
+            
+        } else if timerType == .stopwatch,let newStartDate = startCountDate?.addingTimeInterval(-1 * time) {
+            
             if Date().timeIntervalSince(newStartDate) <= 0 {
-                //prevent less than 0
                 startCountDate = Date()
             } else {
                 startCountDate = newStartDate
             }
+            
         }
         self.updateLabel()
     }
