@@ -1,5 +1,5 @@
 PODS:
-  - WKTimerLabel (1.0.1)
+  - WKTimerLabel (1.0.2)
 
 DEPENDENCIES:
   - WKTimerLabel
@@ -9,7 +9,7 @@ SPEC REPOS:
     - WKTimerLabel
 
 SPEC CHECKSUMS:
-  WKTimerLabel: d3b31f47542b246e2846bb1a724d519bbad260f2
+  WKTimerLabel: 7291d76917233275fc2d18b7c0457e5c531ca54c
 
 PODFILE CHECKSUM: a6962f153bded2fa0db3acb260c8427e4df7c31f
 
