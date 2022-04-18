@@ -6,6 +6,6 @@ target 'WKTimeLabelDemo' do
   use_frameworks!
 
   # Pods for WKTimeLabelDemo
-  pod 'WKTimerLabel'
+  pod 'WKTimerLabel', '1.0.3'
 
 end

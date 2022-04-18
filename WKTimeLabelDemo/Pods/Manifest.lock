@@ -1,16 +1,16 @@
 PODS:
-  - WKTimerLabel (1.0.2)
+  - WKTimerLabel (1.0.3)
 
 DEPENDENCIES:
-  - WKTimerLabel
+  - WKTimerLabel (= 1.0.3)
 
 SPEC REPOS:
   trunk:
     - WKTimerLabel
 
 SPEC CHECKSUMS:
-  WKTimerLabel: 7291d76917233275fc2d18b7c0457e5c531ca54c
+  WKTimerLabel: d61ba1b4a95fd6d8bac6a7a9a53f8766ea2bd6b7
 
-PODFILE CHECKSUM: a6962f153bded2fa0db3acb260c8427e4df7c31f
+PODFILE CHECKSUM: 858641dc552f7263d3bd34f914a575007d3f1af1
 
 COCOAPODS: 1.11.2

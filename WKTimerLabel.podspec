@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "WKTimerLabel" 
-  s.version      = "1.0.2"        
+  s.version      = "1.0.3"        
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = "WKTimerLabel"
 
-  s.homepage     = "https://github.com/GrapeFruitJun/WKTimerLabel.git"
+  s.homepage     = "https://github.com/GrapeFruitJun/WKTimerLabel"
   s.source       = { :git => "https://github.com/GrapeFruitJun/WKTimerLabel.git", :tag => "#{s.version}" }
   s.source_files = "WKTimerLabel/**/*" 
   s.swift_version = '5'
