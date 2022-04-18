@@ -61,7 +61,7 @@ open class WKTimerLabel:UILabel {
             self.updateLabel()
         }
     }
-    public private(set) var counting: Bool = false
+    public var counting: Bool = false
     public var resetTimerAfterFinish: Bool = false
     public var shouldCountBeyondHHLimit: Bool = false {
         didSet {
